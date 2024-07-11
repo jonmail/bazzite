@@ -3,7 +3,7 @@ Version:        1000.0.0
 Release:        1%{?dist}
 Summary:        Corrects a dependency issue between steam and mesa-va-drivers-freeworld on rpm-ostree distributions
 License:        GPLv2
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 BuildArch:      noarch
 
 Source0:        https://raw.githubusercontent.com/ublue-os/bazzite/main/spec_files/%{name}/LICENSE
