@@ -7,7 +7,7 @@ Version:        {{{ git_dir_version }}}
 Release:        1%{?dist}
 Summary:        SteamOS SD card mounting for desktops
 License:        GPLv3
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 
 Source:         https://gitlab.com/evlaV/%{packagename}/-/archive/%{packagever}/%{packagename}-%{packagever}.tar.gz
 Source1:        99-sdcard-rescan.rules
