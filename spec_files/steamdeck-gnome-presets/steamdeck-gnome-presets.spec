@@ -3,7 +3,7 @@ Version:        {{{ git_dir_version }}}
 Release:        1%{?dist}
 Summary:        Portions of steamdeck-kde-presets reconfigured for use in GNOME
 License:        GPLv2
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 
 VCS:            {{{ git_dir_vcs }}}
 Source:         {{{ git_dir_pack }}}
