@@ -3,7 +3,7 @@ Version:        {{{ git_dir_version }}}
 Release:        1%{?dist}
 Summary:        DualShock 4/DualSense mouse inhibitor
 License:        BSD-2-Clause
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 
 Source0:         https://gitlab.com/evlaV/%{name}/-/archive/main/%{name}-main.tar.gz
 Source1:        10-modprobe-ds.conf
