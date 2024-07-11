@@ -103,7 +103,7 @@ if [[ ! -f ${project_root}/${flatpak_dir_shortname}/flatpaks_with_deps ]]; then
         -e FLATPAK_TRIGGERSDIR=/flatpak/triggers \
         --volume "${FLATPAK_REFS_DIR}":/output \
         --volume "${TEMP_FLATPAK_INSTALL_DIR}":/temp_flatpak_install_dir \
-        "ghcr.io/ublue-os/${base_image}-main:${version}" /temp_flatpak_install_dir/script.sh
+        "ghcr.io/jonmail/${base_image}-main:${version}" /temp_flatpak_install_dir/script.sh
 fi
 
 # Remove Temp Directory
@@ -131,13 +131,13 @@ ${container_mgr} run --rm --privileged  \
     ENABLE_CACHE_DNF="false" \
     ENABLE_CACHE_SKOPEO="false" \
     ENABLE_FLATPAK_DEPENDENCIES="false" \
-    ENROLLMENT_PASSWORD="ublue-os" \
+    ENROLLMENT_PASSWORD="jonmail" \
     EXTRA_BOOT_PARAMS="${extra_boot_params}" \
     FLATPAK_REMOTE_REFS_DIR="${flatpak_dir_shortname}" \
     IMAGE_NAME="${tag}" \
     IMAGE_REPO="localhost" \
     IMAGE_TAG="${latest}-${git_branch}" \
     ISO_NAME="build/${tag}-${git_branch}.iso" \
-    SECURE_BOOT_KEY_URL='https://github.com/ublue-os/akmods/raw/main/certs/public_key.der' \
+    SECURE_BOOT_KEY_URL='https://github.com/jonmail/akmods/raw/main/certs/public_key.der' \
     VARIANT="${variant}" \
     VERSION="${latest}"
