@@ -7,7 +7,7 @@ Version:        {{{ git_dir_version }}}
 Release:        1%{?dist}
 Summary:        Steam Deck Hardware Support Package
 License:        GPLv3
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 
 Source:         https://gitlab.com/evlaV/%{packagename}/-/archive/%{packagever}/%{packagename}-%{packagever}.tar.gz
 Source2:        bazzite.png
