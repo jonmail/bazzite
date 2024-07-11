@@ -3,7 +3,7 @@ Version:        {{{ git_dir_version }}}
 Release:        1%{?dist}
 Summary:        Simple XDG D-Bus Notification wrapper
 License:        MIT
-URL:            https://github.com/ublue-os/bazzite
+URL:            https://github.com/jonmail/bazzite
 
 Source:         https://gitlab.com/evlaV/%{name}/-/archive/steam/%{name}-steam.tar.gz
 
